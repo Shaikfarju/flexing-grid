@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+.img-area{
+    display: flex;
+flex-wrap: wrap;
+flex-direction: c0lumn;
+justify-content: center;
+align-items: center;
+padding: 10px;
+height: 200vh;
+width: 300vw;
+}
+.wrapper h1{
+    text-align: center;
+    background-color: blue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+    font-family: audiowide;
+}
+.item{
+padding: 0 20px 20px;
+}
+img:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+    
+
